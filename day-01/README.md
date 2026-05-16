@@ -49,7 +49,7 @@ Follow these rules while creating your plan:
 You may refer to:
 
 - TrainWithShubham [course curriculum](https://drive.google.com/file/d/1gfSBMsqwHR1xx0biWhGE-o8gGNdpVnhB/view?usp=sharing)
-- TrainWithShubham DevOps [roadmap](https://docs.google.com/spreadsheets/d/1eE-NhZQFr545LkP4QNhTgXcZTtkMFeEPNyVXAflXia0/edit?gid=2073716385#gid=2073716385)
+- TrainWithShubham DevOps [roadmap](https://docs.google.com/spreadsheets/d/1eE-NhZQFr545LkP4QNhTgXcZTtkMFeEPNyVXAflXia0/edit?gid=2091219672#gid=2091219672)
 - Your own past experience and career aspirations
 
 Avoid over-researching today. The focus is **clarity**, not depth.
