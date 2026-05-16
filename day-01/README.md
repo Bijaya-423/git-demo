@@ -48,7 +48,7 @@ Follow these rules while creating your plan:
 ## Resources
 You may refer to:
 
-- TrainWithShubham [course curriculum](https://english.trainwithshubham.com/JOSH_BATCH_10_Syllabus_v1.pdf)
+- TrainWithShubham [course curriculum](https://drive.google.com/file/d/1gfSBMsqwHR1xx0biWhGE-o8gGNdpVnhB/view?usp=sharing)
 - TrainWithShubham DevOps [roadmap](https://docs.google.com/spreadsheets/d/1eE-NhZQFr545LkP4QNhTgXcZTtkMFeEPNyVXAflXia0/edit?gid=2073716385#gid=2073716385)
 - Your own past experience and career aspirations
 
