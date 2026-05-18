@@ -14,3 +14,6 @@ ls wrongfolder &>> app.log extend the error and success message
 tail -f demo.txt - show last message of the file
 df -h - to show to dick usage
 top - memory usage
+
+
+
