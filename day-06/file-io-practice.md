@@ -36,3 +36,12 @@ free - to memory usage
 top - to cpu
 
 
+
+
+
+
+
+
+
+
+
