@@ -34,3 +34,6 @@ touch file - to create the single file
 df -h - disk space of the file
 free - to memory usage
 top - to cpu
+
+
+
