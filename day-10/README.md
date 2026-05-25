@@ -93,6 +93,7 @@ Create `day-10-file-permissions.md`:
 [3 key points]
 ```
 
+
 ---
 
 ## Submission
