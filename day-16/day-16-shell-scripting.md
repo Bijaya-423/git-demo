@@ -15,13 +15,12 @@ but i have add a single quotes in echo print statement not print constant only p
 
 ### Task 4: If-Else Conditions
 
-2. Create `file_check.sh` that:
-   - Asks for a filename
-   - Checks if the file **exists** using `-f`
-   - Prints appropriate message
-
-create file check_number.sh take read user input and condition check if else
-
 
 check the file path exists or not using -f in if else condition
+
+Create `server_check.sh` that:
+enter the user input in read for service 
+and read input in status check y or n
+
+and check in if else condition if y check else not check
 
