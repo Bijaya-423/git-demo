@@ -21,3 +21,7 @@ but i have add a single quotes in echo print statement not print constant only p
    - Prints appropriate message
 
 create file check_number.sh take read user input and condition check if else
+
+
+check the file path exists or not using -f in if else condition
+
