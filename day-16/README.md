@@ -40,7 +40,7 @@ chmod +x hello.sh
    - A variable for your `ROLE` (e.g., "DevOps Engineer")
    - Print: `Hello, I am <NAME> and I am a <ROLE>`
 2. Try using single quotes vs double quotes — what's the difference?
-
+v
 ---
 
 ### Task 3: User Input with read
