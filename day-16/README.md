@@ -18,6 +18,7 @@ You will:
 
 ## Challenge Tasks
 
+
 ### Task 1: Your First Script
 1. Create a file `hello.sh`
 2. Add the shebang line `#!/bin/bash` at the top
