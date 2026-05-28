@@ -35,6 +35,9 @@ You will:
 
 ---
 
+
+
+
 ### Task 3: Strict Mode — `set -euo pipefail`
 1. Create `strict_demo.sh` with `set -euo pipefail` at the top
 2. Try using an **undefined variable** — what happens with `set -u`?
