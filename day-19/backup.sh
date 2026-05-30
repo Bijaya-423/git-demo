@@ -48,3 +48,7 @@ find "$backup_dir" -type f -name "*.tar.gz" -mtime +14 -delete
 echo "Old Backups Deleted : $deleted_count"
 
 echo "Backup Completed Successfully."
+
+
+
+
