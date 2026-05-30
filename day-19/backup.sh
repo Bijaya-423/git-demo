@@ -51,6 +51,3 @@ echo "Backup Completed Successfully."
 
 
 
-
-\
-
