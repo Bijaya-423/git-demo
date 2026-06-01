@@ -8,3 +8,40 @@ and check the who is the owner of the file
 
 -rw-r--r-- 1 owner group size date filename -> in this format owner is the who created the file and group is a collection of the user if owner assign this file or dir to group and in this group member have permission to read write and execute this file
 
+### Task 2: Basic chown Operations (20 minutes)
+
+
+
+create a file devops-notes.txt and check the permission in ls -l devops-notes.txt 
+
+create a new user tokyo using sudo useradd -m tokyo and then set the password using sudo passwd tokyo 
+
+and sudo chown tokyo devops-notes.txt
+
+
+then create another user in sudo adduser berlin and password that time created and assing to the the new user to this file 
+
+sudo chown berlin devops-notes.txt
+
+### Task 3: Basic chgrp Operations (15 minutes)
+================================================
+
+create a file team-notes.txt
+then create a group add heist-team and assing this group to team-notes.txt 
+
+sudo chgrp heist-team team-notes.txt
+
+### Task 4: Combined Owner & Group Change (15 minutes)
+
+Using `chown` you can change both owner and group together:
+
+Create file `project-config.yaml`
+and change the owner of the file using sudo chown user:group filename
+
+then Create directory `app-logs/` and assign the user and group sudo chown username file and then chgrp groupname file
+
+command : sudo chown owner:group filename
+
+
+
+
