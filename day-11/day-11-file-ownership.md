@@ -45,4 +45,22 @@ command : sudo chown owner:group filename
 
 
 ### Task 5: Recursive Ownership (20 minutes)
+Create directory three directory and one file
+
+   mkdir -p heist-project/vault
+   mkdir -p heist-project/plans
+   touch heist-project/vault/gold.txt
+   touch heist-project/plans/strategy.conf
+
+
+Create group `planners`: `sudo groupadd planners`
+
+ad change the with out -R recursivly then check directoy is change but sub dir not change then add -R to change the total directory path group change and owner change
+Change ownership of entire `heist-project/` directory:
+   - Owner: `professor`
+   - Group: `planners`
+   - Use recursive flag (`-R`)
+
+ Verify all files and subdirectories changed: `ls -lR heist-project/`
+
 
