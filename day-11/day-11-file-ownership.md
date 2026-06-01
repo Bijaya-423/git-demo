@@ -63,4 +63,23 @@ Change ownership of entire `heist-project/` directory:
 
  Verify all files and subdirectories changed: `ls -lR heist-project/`
 
+### Task 6: Practice Challenge (20 minutes)
+
+Create users: `tokyo`, `berlin`, `nairobi` two users existed and add new user nairobi 
+then two  Create groups: `vault-team`, `tech-team`
+then Create directory: `bank-heist/`
+under this directory Create 3 files inside:
+
+   touch bank-heist/access-codes.txt
+   touch bank-heist/blueprints.pdf
+   touch bank-heist/escape-plan.txt
+   
+
+Set different ownership:
+   - `access-codes.txt` → owner: `tokyo`, group: `vault-team`
+   - `blueprints.pdf` → owner: `berlin`, group: `tech-team`
+   - `escape-plan.txt` → owner: `nairobi`, group: `vault-team`
+
+ `ls -l bank-heist/`
+
 
