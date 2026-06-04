@@ -12,6 +12,8 @@ osi medel layer 3 is the network layer is reponsible for routing data accross di
 
 
 
-
+OSI Model - Layer 4
+===========
+osi model 4 or transport layer , is the networking layer responsible for reliable, ordered, and error free  end to end devlivery data between application on different devices.
 
 
