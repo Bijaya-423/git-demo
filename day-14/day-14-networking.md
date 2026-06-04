@@ -20,3 +20,8 @@ osi model 4 or transport layer , is the networking layer responsible for reliabl
 OSI Model - Layer 5
 ===========
 Osi model layer 5 is the Session layer it act as a dialogue manager, responsible for establishing , maintaining , synchroning and gracefully  terminating communication connections  between  applications on different devices.
+
+
+OSI Model - Layer 6
+===========
+osi model 6 presentation layer acts as the network translater . it formats encrypts and compresses data from the application layer so it can be reliable understood and displayed  by receiving  system , regard less  of the operating system or hardware.
