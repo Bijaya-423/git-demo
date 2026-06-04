@@ -6,9 +6,9 @@ OSI Model - Layer 2
 ===========
 osi model layer 2  is the data link layer. it is responsible for node to node delivery of data across a local physical network. is translate raw bits into structured  chunks called frames  and uses hardware based mac address.
 
-OSi
-
-
+OSi Model - Layer 3
+===========
+osi medel layer 3 is the network layer is reponsible for routing data accross different network. it translate logical address (like ip address ) into physical path and breaks large transport segment into smaller packets.
 
 
 
