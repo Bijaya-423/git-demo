@@ -25,3 +25,8 @@ Osi model layer 5 is the Session layer it act as a dialogue manager, responsible
 OSI Model - Layer 6
 ===========
 osi model 6 presentation layer acts as the network translater . it formats encrypts and compresses data from the application layer so it can be reliable understood and displayed  by receiving  system , regard less  of the operating system or hardware.
+
+OSI Model - layer 7
+===========
+Layer 7 is the application layer of the osi model . it is the top most layer that serve as  the direct interface between enduser application (like web browser and email clients ) andunder laying network interpreting  application level request and user intent.
+
