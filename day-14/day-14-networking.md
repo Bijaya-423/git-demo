@@ -17,3 +17,6 @@ OSI Model - Layer 4
 osi model 4 or transport layer , is the networking layer responsible for reliable, ordered, and error free  end to end devlivery data between application on different devices.
 
 
+OSI Model - Layer 5
+===========
+Osi model layer 5 is the Session layer it act as a dialogue manager, responsible for establishing , maintaining , synchroning and gracefully  terminating communication connections  between  applications on different devices.
