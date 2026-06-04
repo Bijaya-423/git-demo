@@ -34,3 +34,4 @@ Layer 7 is the application layer of the osi model . it is the top most layer tha
 
 TCP/IP
 ======
+Operate on physical hard ware connecting devices . it moves raw binary data across a raw binary data across a local area network
