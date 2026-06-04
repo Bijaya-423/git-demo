@@ -9,3 +9,6 @@ osi model layer 2  is the data link layer. it is responsible for node to node de
 OSi
 
 
+
+
+
