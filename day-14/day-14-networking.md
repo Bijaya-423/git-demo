@@ -43,5 +43,11 @@ Operate on physical hard ware connecting devices . it moves raw binary data acro
 
 internet layer
 --------------
-
 connects multiple independent network together establishing the foundation of the internet . it handle the routing and logical address of the data .
+
+
+Transport Layer
+---------------
+acts as a liasion between  the abstract world of the software  application and physical routing of lower layers.
+is provides reliable end to end communication between specific application running on different devices
+
