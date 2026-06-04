@@ -51,3 +51,6 @@ Transport Layer
 acts as a liasion between  the abstract world of the software  application and physical routing of lower layers.
 is provides reliable end to end communication between specific application running on different devices
 
+Application Layer
+-----------------
+the top layer of the stack which interact directly with the end users it allows the user facing software and services to request and send network data 
