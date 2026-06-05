@@ -16,3 +16,6 @@ the operating system checks its own recoreds.
 The request then goes to your local dns server(typically your isp) which checks its recent cache
 
 
+
+
+
