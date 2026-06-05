@@ -47,3 +47,43 @@ network ports are virtual endpoints that direct data traffic to the correct  app
 
 they allow computer network to run multiple servide simulataneously . when data packets arrive port umbers ensure the information goes to the right place
 
+### Task 1: DNS – How Names Become IPs
+1. Explain in 3–4 lines: what happens when you type `google.com` in a browser?
+
+- The browser checks its cache for the url , then uses a dns look up tpoo find the website correcsponding ip addresss. it establishes a secure conection using a tcp/ip and ssl/tls handshake . finally , it sends a http request to the server , receives the sites files and renders the page on your screen.
+
+a deep dive into the domain name system (dns)
+
+how tcp/ip handshake work to establish secure connections
+
+
+the dom and cssom rending process fot page display
+
+
+
+
+2. What are these record types? Write one line each:
+   - `A`, `AAAA`, `CNAME`, `MX`, `NS`
+
+- here is a one line explanation for each of these common domain name system (dns)
+
+A:  maps a humamm -readable domain name directly to an ipv4 address so the internet knows where to locate your website
+
+
+AAAA: Maps a domain name to an ipv6 address , actimg as the modern counterpart to standard A records
+
+CNAME: Points a domain or dubdomain alias to another "canonical" domain name instead of a direct ip address
+
+MX: Specifies the mail servers responsible for receibving and routing incoming emails for your domain
+
+
+NS: identifies which authoritative jname servers hold the actual dns records for a specifies domain.
+
+
+
+3. Run: `dig google.com` — identify the A record and TTL from the output
+
+Because DNS results vary based on your location and exact you server runig dig google.com typing returns multiple ipv4 addresses (A records) and their Time to live (TTL)
+
+
+TTL: Located between the domain name and IN, representing the time (in seconds) the record is cached. In this example, it is 234 seconds (about 4 minutes)
