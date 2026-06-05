@@ -19,12 +19,3 @@ The request then goes to your local dns server(typically your isp) which checks 
 
 
 
-
-
-
-
-
-
-
-
-
