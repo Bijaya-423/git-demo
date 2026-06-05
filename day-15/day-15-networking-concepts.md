@@ -18,3 +18,6 @@ The request then goes to your local dns server(typically your isp) which checks 
 
 
 
+- Learn **IP addressing** (IPv4, public vs private)
+===================================================
+An ip address is a unique identifier for devices on a network . public ip addresses are globally unique and routable on the internet . private ip addresses are isolated to your local area network (lan) and are used for secure internal communication.
