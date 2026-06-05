@@ -44,3 +44,6 @@ every network needs a way to separete the network id from the host id. when you 
 - Know common **ports** and why they matter
 ===========================================
 network ports are virtual endpoints that direct data traffic to the correct  application on a device . Numbered 0 to 65535 , they act like specifix mailing addresses or radio channels. without ports a computer cannot distinguish between a web request a web request , a file transfer or an incoming email.
+
+they allow computer network to run multiple servide simulataneously . when data packets arrive port umbers ensure the information goes to the right place
+
