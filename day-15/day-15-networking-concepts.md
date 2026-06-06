@@ -165,3 +165,74 @@ when you run ip addr show in a linus terminal , your private local betwork ip ad
 
 Any ip address that falls within these standard ranges is a private ip
 
+
+
+
+### Task 3: CIDR & Subnetting
+1. What does `/24` mean in `192.168.1.0/24`?
+
+- in 192.168.1.0/24 knows as cidr notation indicates that the first that the first 24 bits of the 32 bit ip address define the network portion . This dictate that all devioces in this network share the ssame 192.168.1 prefix , while the remaining 8 bits are  reserved for indivisual devices
+
+
+subnet mast : equivalent to 255.255.255.0
+
+ip range : cotains 256 unique addresses spanning s from 192.168.1.0 to  192.168.1.255
+
+unables hosts : holds 254 usable ip addresses for devices 
+
+2. How many usable hosts in a `/24`? A `/16`? A `/28`?
+
+- A /24 prefix size provides 254 usable hosts , a 
+- a /16 provides 65,534 usable hosts and 
+- a /28 provides 14 usable hosts
+
+
+
+to find the number of usable hosts in any ipv4 cidr block , use the formula
+Usable hosts = 2 ^ 32 -n -2
+32 represents the total bits in an ipv4 address
+n is the prefix length the cidr number
+
+we subtract 2 because the first addresses is reserved for the network id and the last address is reserved for the broacast id
+
+3. Explain in your own words: why do we subnet?
+
+- subnetting is the process of deviding a large , unmanageable network into smaller , independent sub networks . we do this to improve network performance by limiting traffic, enhance security bt isolating sensitve devices abd conserve ip address to prevebt waste
+
+
+4. Quick exercise — fill in:
+
+| CIDR | Subnet Mask | Total IPs | Usable Hosts |
+|------|-------------|-----------|--------------|
+| /24  | ?           | ?         | ?            |
+| /16  | ?           | ?         | ?            |
+| /28  | ?           | ?         | ?            |
+
+| CIDR | Subnet Mask    | Total IPs | Usable Hosts |
+|------|-------------   |-----------|--------------|
+| /24  | 255.255.255.0  | 256       |  254         |
+| /16  | 255.255.255.0  | 65536     | 65534        |
+| /28  | 255.255.255.0  | 16        | 14           |
+
+
+we subnet to breal large networks into smaller more managele able sections . this process improve traffic flow by containing routine data within local areas , enhances security by isolating sensitive systems and helpls  optimize ip address allocation to prevent waste
+
+
+
+### Task 4: Ports – The Doors to Services
+1. What is a port? Why do we need them?
+- in computing , a port is a virtual , software - based endpoint where connections start and end , while an ip address gets data to the correct device, a port number direct that data to the specific application or service requesting it
+
+
+
+2. Document these common ports:
+
+| Port | Service |
+|------|---------|
+| 22   |  ssh    |
+| 80   | http    |
+| 443  | https   |
+| 53   |  dns    |
+| 3306 | mysql   |
+| 6379 | redis   |
+| 27017| mongodb |
