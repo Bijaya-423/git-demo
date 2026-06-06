@@ -236,3 +236,10 @@ we subnet to breal large networks into smaller more managele able sections . thi
 | 3306 | mysql   |
 | 6379 | redis   |
 | 27017| mongodb |
+
+
+3. Run `ss -tulpn` — match at least 2 listening ports to their services
+
+22 - ssh - secure remote login and server administration
+80 - http - serves web pages over the internet
+443 - https - secure web traffice using ssl/tls
