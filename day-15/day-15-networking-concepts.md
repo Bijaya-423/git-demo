@@ -243,3 +243,30 @@ we subnet to breal large networks into smaller more managele able sections . thi
 22 - ssh - secure remote login and server administration
 80 - http - serves web pages over the internet
 443 - https - secure web traffice using ssl/tls
+
+
+
+### Task 5: Putting It Together
+Answer in 2–3 lines each:
+- You run `curl http://myapp.com:8080` — what networking concepts from today are involved?
+
+- dns resolution is translated into an ip address using dns
+
+ip addressing the client uses the destination ip to locate the server on the network 
+
+port number identifies the destination the specifix appication service running on the server
+
+
+- Your app can't reach a database at `10.0.1.50:3306` — what would you check first?
+
+- ping 10.0.1.50:3306
+- nc -zv 10.0.1.50:3306
+
+
+whether the mysql service is running
+whether mysql is listening on port
+firawall rules and security groups
+database configuration
+
+this helps determine whether the issue is related to networking, the database service or configuration
+
