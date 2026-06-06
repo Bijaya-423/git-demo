@@ -87,3 +87,14 @@ Because DNS results vary based on your location and exact you server runig dig g
 
 
 TTL: Located between the domain name and IN, representing the time (in seconds) the record is cached. In this example, it is 234 seconds (about 4 minutes)
+
+
+### Task 2: IP Addressing
+1. What is an IPv4 address? How is it structured? (e.g., `192.168.1.10`)
+
+
+
+2. Difference between **public** and **private** IPs — give one example of each
+3. What are the private IP ranges?
+   - `10.x.x.x`, `172.16.x.x – 172.31.x.x`, `192.168.x.x`
+4. Run: `ip addr show` — identify which of your IPs are private
