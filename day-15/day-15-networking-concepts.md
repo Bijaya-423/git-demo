@@ -112,8 +112,56 @@ host id : identifes the specific device within that network
 
 - A public ip is your device primary address on the public internet , assigned by your isp (internet service provider) for external communication . a private ip is a secure , local address assigned by your router to identify specific devices within yourn home or office network
 
+   PUBLIC IP                     PRIVATE IP
+=========================================================================
+- golbally visible and        - hidden from the outside internet: only accessbile across               visible within your local network
+ the internet
+
+- your network service        - your local network router
+provider (airtel)
+
+- must be globally unique     - Only needs to be unique within your 
+across the entire internet       specific local netwrok
+
+- Connecting your entire      - Connecting devices to each others and
+local network to website         your router
+and online services     
+
 
 
 3. What are the private IP ranges?
    - `10.x.x.x`, `172.16.x.x – 172.31.x.x`, `192.168.x.x`
+
+- private Ip addresses are reserved for internal networks and cannot be routes on the public internet. The official private ip range defined by the internet Engineering task force
+in RFC 1918 are
+
+class A range
+=============
+ip range : 10.0.0.0 to 10.255.255.255
+subnet mask : 255.0.0.0 
+total addresses : 16,777,216
+
+commo usage - large enterprises networks and data centers
+
+class b range 
+=============
+ip range : 172.16.0.0 to 172.31.255.255
+subnet mask : 255.240.0.0
+total addresses : 10,48,576
+common use - medium sized corporate newtwork univeristies and cloud vpc
+
+class c range
+==============
+ip range : 192.168.0.0 to 192.168.255.255
+subneet mask : 255.255.0.0 
+total addresses : 65,536
+common use : home wifi  router and small office network 
+
+
+
 4. Run: `ip addr show` — identify which of your IPs are private
+===============================================================
+when you run ip addr show in a linus terminal , your private local betwork ip addressed are listed next to the keyboard inet . yoiu can easily identify them by looking for specific reserved ip ranges used for local area networks 
+
+Any ip address that falls within these standard ranges is a private ip
+
