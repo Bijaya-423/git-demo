@@ -92,9 +92,28 @@ TTL: Located between the domain name and IN, representing the time (in seconds) 
 ### Task 2: IP Addressing
 1. What is an IPv4 address? How is it structured? (e.g., `192.168.1.10`)
 
+- An ipv4 address (internet protocol version 4) is a unique , 32 bit numeric identifier assigned to every device connected to a computer network.
+it serve two main functions : identifying the specific device and locating it on the network so that data packets can be sent and received
 
+- An ipv4 address is devided into 4 disticnt 8 bit segment clled octects
+separated by periods
+
+
+octets: each octect consist of 8 bits meaning its decimal value can rnge from 0 to 255
+
+
+the two part : every ipv4 address is devided into two primary logical components
+
+
+network id : identifies the specific netwrok the device belongs to 
+host id : identifes the specific device within that network 
 
 2. Difference between **public** and **private** IPs — give one example of each
+
+- A public ip is your device primary address on the public internet , assigned by your isp (internet service provider) for external communication . a private ip is a secure , local address assigned by your router to identify specific devices within yourn home or office network
+
+
+
 3. What are the private IP ranges?
    - `10.x.x.x`, `172.16.x.x – 172.31.x.x`, `192.168.x.x`
 4. Run: `ip addr show` — identify which of your IPs are private
