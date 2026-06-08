@@ -23,4 +23,3 @@ $VAR - this is Replace variable with value
 '$VAR'- this print exactly $VAR
 
 
-git 
