@@ -26,10 +26,3 @@ $VAR - this is Replace variable with value
 
 
 
-
-
-
-
-
-
-
