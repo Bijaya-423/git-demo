@@ -21,3 +21,6 @@ comment
 $VAR - this is Replace variable with value
 "$VAR"	- this Replace with value and keep spaces
 '$VAR'- this print exactly $VAR
+
+
+git 
