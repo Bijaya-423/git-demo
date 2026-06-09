@@ -160,25 +160,89 @@ Document the most useful flags/patterns for each:
             error count and print the output in integer 
     - grep -n - show the line number
     - grep -v - invert match - show the lines that do not match.
-    
+
 2. `awk` — print columns, field separator, patterns, `BEGIN/END`
+
+- begin and end are special blocks in awk
+    - BEGIN -> Before reading any line
+    - MAIN -> for every line
+    - END -> After reading all lines
+
+
+
 3. `sed` — substitution, delete lines, in-place edit
+- sed stands for Stream Editor
+- sed replace text in config files
+delete lines
+update enviornment variables
+modify YAML , Nginx, Apache and application configs
+
+substitution (s)- sed 's/old/new' file.txt
+delete(d) - delete the line
+in-place(-i) - normally sed only print output.
+
+
 4. `cut` — extract columns by delimiter
+    example
+        extract first column cut -d ':' -f1 file.txt
+        -d -> delimiter
+        -f -> field number
+
 5. `sort` — alphabetical, numerical, reverse, unique
+    - sort lines alphabetically
+    -n - numeric sort
+    -r - reverse sort
+    
+    
 6. `uniq` — deduplicate, count
+    - uniq - removes adjacent duplicate lines
+    
+
 7. `tr` — translate/delete characters
+- tr - translate / deleted characters
+            convert lowercase to uppercase
 8. `wc` — line/word/char count
+    -> count the work in a files
+        coomand output
+
 9. `head` / `tail` — first/last N lines, follow mode
+    -> head - show the first 10 lines
+    -> tail - show last 10 lines
+
 
 ---
 
 ### Task 6: Useful Patterns and One-Liners
 Include at least 5 real-world one-liners you find useful. Examples:
 - Find and delete files older than N days
+    find /var/log -type f -mtime +30
+    find /var/log -type f -mtime +30 -delete
+
 - Count lines in all `.log` files
+    wc -l *.log
+    count the lines in each .log file
+
 - Replace a string across multiple files
+    - sed -i 's/old_string/new_string/g' file.txt
+
 - Check if a service is running
+    - systemctl is-active nginx
+
 - Monitor disk usage with alerts
+
+#!/bin/bash
+
+threshold=80
+
+usage=$(df -h / | awk 'NR==2 {print $5}' | sed 's/%//')
+
+if [ "$usage -ge "$threshold" ]
+then
+    echo "Alert: Disk usage is ${usage}%"
+else
+    echo "Disk usage is normal : ${usage}%"
+fi
+
 - Parse CSV or JSON from command line
 - Tail a log and filter for errors in real time
 
