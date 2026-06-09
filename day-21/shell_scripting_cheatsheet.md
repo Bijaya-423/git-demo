@@ -109,11 +109,19 @@ Document with examples:
 -> in this loop print all the file with .log extension one by one which 
 6. Looping over command output — `while read line`
 
+while read line is one of the most important patterns is  shell scripting.
+it is used when you want to read command output line by line.
+
 ---
+
+
 
 ### Task 4: Functions
 Document with examples:
 1. Defining a function — `function_name() { ... }`
+-> function in shell scripting are used to group a set of commands so they can bee reused multiple times.
+
+instead of wrting the same code again and again , put it inside the function and call it whenever needed.
 2. Calling a function
 3. Passing arguments to functions — `$1`, `$2` inside functions
 4. Return values — `return` vs `echo`
