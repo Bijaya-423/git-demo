@@ -82,16 +82,28 @@ else - check last condition if all condioon is false
 
 6. Case statements — `case ... esac`
 
+-> case is used when you have multiple choices / options
+instead of writing many if elif else conditions, you can use case
 
+this is like a switch statement in java , python
 
 
 
 ### Task 3: Loops
 Document with examples:
 1. `for` loop — list-based and C-style
+-> for loop is used when you want to execute the same block of code multiple times
+- > repeat this task for each item.
+
 2. `while` loop
+-> while loop runs as long as the condition is true.
+
 3. `until` loop
+-> until is the  opposite  of while.
+
 4. Loop control — `break`, `continue`
+-> break is used to break (exit) the statement(loop) is condition is trun 
+-> continue is used to skip this true condition and run next condition
 5. Looping over files — `for file in *.log`
 6. Looping over command output — `while read line`
 
