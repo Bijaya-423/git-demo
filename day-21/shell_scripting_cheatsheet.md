@@ -72,6 +72,14 @@ else - check last condition if all condioon is false
 
 
 5. Logical operators — `&&`, `||`, `!`
+
+&& -> logical and operator second command run only if the first command success both conadition true
+
+|| -> local or operator second command run only in first command fails
+    one condition true 
+
+! -> Not operator - reverse condition 
+
 6. Case statements — `case ... esac`
 
 
