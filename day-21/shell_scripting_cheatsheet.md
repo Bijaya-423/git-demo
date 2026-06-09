@@ -122,16 +122,45 @@ Document with examples:
 -> function in shell scripting are used to group a set of commands so they can bee reused multiple times.
 
 instead of wrting the same code again and again , put it inside the function and call it whenever needed.
+
 2. Calling a function
+-> after defining a function , you execute it by writing its name.
+
+-> function is called by function name only
+function call is execute after the function defination
+
 3. Passing arguments to functions — `$1`, `$2` inside functions
+-> in shell scripting there are two different types of arguments
+    i - script arguments
+        - script argument passed when the script is execute time after the script file right side is $1 and send args is $2
+
+    ii - function arguments
+        - function argument is passed when function called statement
+
 4. Return values — `return` vs `echo`
+
+    - > returns an exit status (0- 255) from a function.
+    - > echo - prints /output text
+
 5. Local variables — `local`
+    -> local keyword is used to define variable  local
+    -> in shell scripting local is used inside a function to create a variable that exists only within that function.
+    -> without local variable  , a variable can affect the entire script.
+
 
 ---
 
 ### Task 5: Text Processing Commands
 Document the most useful flags/patterns for each:
 1. `grep` — search patterns, `-i`, `-r`, `-c`, `-n`, `-v`, `-E`
+    - grep -i - ignore case search without caring uppercase and lowercase
+    - grep -r - search inside all files and sub directories.
+    - frep -c - count match 
+        = grep -c "error" app.log
+            error count and print the output in integer 
+    - grep -n - show the line number
+    - grep -v - invert match - show the lines that do not match.
+    
 2. `awk` — print columns, field separator, patterns, `BEGIN/END`
 3. `sed` — substitution, delete lines, in-place edit
 4. `cut` — extract columns by delimiter
