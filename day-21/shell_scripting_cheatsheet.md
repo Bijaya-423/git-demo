@@ -103,8 +103,10 @@ Document with examples:
 
 4. Loop control — `break`, `continue`
 -> break is used to break (exit) the statement(loop) is condition is trun 
--> continue is used to skip this true condition and run next condition
+-> continue is used to skip true condition and run next condition
+
 5. Looping over files — `for file in *.log`
+-> in this loop print all the file with .log extension one by one which 
 6. Looping over command output — `while read line`
 
 ---
