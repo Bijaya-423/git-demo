@@ -251,6 +251,10 @@ fi
 ### Task 7: Error Handling and Debugging
 Document with examples:
 1. Exit codes — `$?`, `exit 0`, `exit 1`
+- $? - previous command exit code
+- exit 0 - script completed successfully
+- exit 1 - script failed
+
 2. `set -e` — exit on error
 3. `set -u` — treat unset variables as error
 4. `set -o pipefail` — catch errors in pipes
