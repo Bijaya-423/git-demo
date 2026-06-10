@@ -256,10 +256,19 @@ Document with examples:
 - exit 1 - script failed
 
 2. `set -e` — exit on error
+- Exit immedeiately if a command faiils
+
 3. `set -u` — treat unset variables as error
+- treat undefined variables as errors
+
 4. `set -o pipefail` — catch errors in pipes
+- if any command in pipeline fails whole pipeline fails
+
 5. `set -x` — debug mode (trace execution)
+
+- 
 6. Trap — `trap 'cleanup' EXIT`
+- when the script exist, automatically run clean up function.
 
 ---
 
