@@ -287,9 +287,55 @@ Create a summary table like this at the top of your cheat sheet:
 | Sed | `sed 's/old/new/g' file` | `sed -i 's/foo/bar/g' config.txt` |
 
 ---
+variable
+========
+var="devops"
+var="sre"
+
+use varibale
+============
+$var
+echo $var
+
+arguments
+=========
+$0 - script file
+$1 - first args
+$2 - second args
+$# - args count
+$@- all args
+
+if =
+====
+if [ condition ]; then
+
+if else 
+=======
+if ---- else ----- fi
 
 
 
+
+function defination
+===================
+name() {
+    echo "hii"
+}
+
+function call
+==============
+name
+
+function args
+=============
+$1 
+name $1
+
+grep -i - ignore case
+
+awk '{print $1}' print column
+
+sed -i sed in place edit
 
 
 
