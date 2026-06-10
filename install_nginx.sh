@@ -13,3 +13,13 @@ cp hello.html /var/www/html
 sudo systemctl restart nginx
 
 echo "DevBoard Running on Port 80"
+
+
+
+
+
+
+
+
+
+
