@@ -37,6 +37,50 @@ HEAD is the current position in git
 
 
 
+### Task 2: Branching Commands — Hands-On
+In your `devops-git-practice` repo, perform the following:
+1. List all branches in your repo
+git branch-
+to get the all the branch in the git and * is the current branch
+
+git branch -v
+show all commit and branch details
 
 
+2. Create a new branch called `feature-1`
+git bracnh feature-1
+git checkout - feature-1 to create and switch the branch
+
+
+3. Switch to `feature-1`
+git checkout feature-1
+git switch feature-1
+
+4. Create a new branch and switch to it in a single command — call it `feature-2`
+
+git checkout -b feature-2
+
+5. Try using `git switch` to move between branches — how is it different from `git checkout`?
+
+- both commands can be used to move between branches , but git switch is newer and simpler
+
+git checkout feature-1 - switch the branch
+git checkout -b feature-1 - create and switch the branch
+
+git checkout
+============
+switch branches
+create branches
+restore files
+checkout commits
+
+git switch
+==========
+switching branches
+createtig and switching branches
+
+6. Make a commit on `feature-1` that does **not** exist on `main`
+7. Switch back to `main` — verify that the commit from `feature-1` is not there
+8. Delete a branch you no longer need
+9. Add all branching commands to your `git-commands.md`
 
