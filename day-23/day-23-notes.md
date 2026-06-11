@@ -80,7 +80,25 @@ switching branches
 createtig and switching branches
 
 6. Make a commit on `feature-1` that does **not** exist on `main`
+git switch feature-1
+
+- create a file and added the code and commit 
+
+git log --online
+
+git switch main
+and notice
+
 7. Switch back to `main` — verify that the commit from `feature-1` is not there
+
+git checkout main
+and notice nothing is theere in this file and file does not exists
+
 8. Delete a branch you no longer need
+git branch -d feature-1
+
+
+git checkout -d branch_name
+
 9. Add all branching commands to your `git-commands.md`
 

@@ -26,3 +26,9 @@ git checkout branch_name
 
 
 git log --oneline
+
+
+
+
+==========================
+git br
