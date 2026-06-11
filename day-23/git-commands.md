@@ -7,3 +7,14 @@ git checkout branch_name
 
 git merge branch_name
 git branch -d branch_name
+
+
+git log
+git log --oneline
+
+
+git status
+git add file_name
+git commit -m "messsage"
+git push origin main
+
