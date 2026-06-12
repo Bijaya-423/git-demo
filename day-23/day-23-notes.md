@@ -102,3 +102,15 @@ git checkout -d branch_name
 
 9. Add all branching commands to your `git-commands.md`
 
+### Task 3: Push to GitHub
+1. Create a **new repository** on GitHub (do NOT initialize it with a README)
+2. Connect your local `devops-git-practice` repo to the GitHub remote
+3. Push your `main` branch to GitHub
+4. Push `feature-1` branch to GitHub
+5. Verify both branches are visible on GitHub
+6. Answer in your notes: What is the difference between `origin` and `upstream`?
+
+
+
+origin => Your own remote repository
+upstream => the original source repository from which your repository was forked 
