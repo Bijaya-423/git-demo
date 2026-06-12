@@ -114,3 +114,68 @@ git checkout -d branch_name
 
 origin => Your own remote repository
 upstream => the original source repository from which your repository was forked 
+
+
+
+### Task 4: Pull from GitHub
+1. Make a change to a file **directly on GitHub** (use the GitHub editor)
+2. Pull that change to your local repo
+3. Answer in your notes: What is the difference between `git fetch` and `git pull`?
+
+
+
+git fetch 
+=========
+
+git fetch downloads the latest changes from the remote repository but does not modify my local branch
+
+it updates the remote - tracking branches such as
+
+origin / main
+
+git fetch origin 
+
+
+git pull
+========
+git pull download changes from the remote repository and immediatly merges them into my current branch
+
+
+git pull origin main
+
+
+### Task 5: Clone vs Fork
+1. **Clone** any public repository from GitHub to your local machine
+2. **Fork** the same repository on GitHub, then clone your fork
+3. Answer in your notes:
+   - What is the difference between clone and fork?
+   - When would you clone vs fork?
+   - After forking, how do you keep your fork in sync with the original repo?
+
+
+-> a clone creates a copy of a git repository on your local machine.
+
+
+you make changes locally , commit them and push them if you have permission.
+
+
+a form create your own copy of some one else repository on github.
+
+
+after forking you can clone your fork
+
+
+clone
+====
+you own the repository
+you are part of the project team
+you already have write access.
+you want a local copy of the repository.
+
+fork
+====
+
+you do not have write access.
+you want to contribute to an open source project.
+
+you want your own github copy of the project
